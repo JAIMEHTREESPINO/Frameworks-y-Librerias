@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Blog Turismo</title>
+
+  <!-- CSS  -->
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/index.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="css/font-awesome-4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<div id="navbar" class="navbar-fixed scrollspy">
+  <nav class="grey darken-2">
+    <div class="nav-wrapper container">
+    	<div class="container"> <a href="index.html" class="brand-logo">Creando mi propio camino</a></div>
+     
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#">Inicio</a></li>
+         <li><a href="#">Estuve en</a></li>
+         <li><a href="#">Mejores viajes</a></li>
+        <li><a href="#">Recomendaciones</a></li>
+      </ul>
+      <ul class="right side-nav" id="mobile-demo">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Estuve en</a></li>
+        <li><a href="#">Mejores viajes</a></li>
+        <li><a href="#">Recomendaciones</a></li>
+      </ul>
+    </div>
+  </nav>
+  </div>
+
+  <div id="index-banner" class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container valign">
+        <br><br>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="images/viajes.png"></div>
+  </div>
+
+      <div class="row">
+        <div class="col s12 m7">
+          <div class="card medium">
+            <div class="card-image">
+              <img src="images/mexico.jpg">
+            </div>
+            <div class="card-content">
+              <p>Las áreas metropolitanas o zonas metropolitanas de México han sido tradicionalmente descritas como el grupo de municipios que interactúan entre sí, usualmente alrededor de una ciudad principal. En 2004, el Consejo Nacional de Población (CONAPO), el Instituto Nacional de Estadística, Geografía e Informática (INEGI) y la Secretaría de Desarrollo Social (SEDESOL).</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col s12 m8 offset-m2 l6 offset-l3">
+        <div class="card-panel grey lighten-5 z-depth-1">
+          <div class="row valign-wrapper">
+            <div class="col s2">
+              <img src="images/pollito.jpg" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+            </div>
+            <div class="col s10">
+              <span class="black-text">
+                Polluelo, pollo o pichón son nombres usados para designar a las crías de las aves, llamadas así desde que eclosiona el huevo hasta que aprenden a valerse por sí mismas sin necesidad de los cuidados de los adultos, y gracias al desarrollo fisiológico correspondiente, que es lo que en realidad les proporciona independencia.
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <footer class="page-footer grey darken-2">
+    <div class="container">
+            <div class="row">
+              <div class="col s12 l4 m10">
+                <h5 class="white-text">Follow "BlogName"</h5>
+                <p class="white-text">Get every new post delivered to your inbox.</p>
+			     <form>
+			    
+			      <div class="input-field">
+			        <i class="mdi-communication-email prefix"></i>
+			        <input id="icon_prefix" type="email" class="validate">
+			        <label for="icon_prefix">Email</label>
+			      </div>
+			     
+			     </form>
+			    
+			    <a class="waves-effect waves-light btn">Sign Up
+                    <i class="fa fa-sign-in right"></i></a>
+       </div><!--col-->
+            </div><!--row-->
+            
+            <div class="row">
+            	<div class="col s12 l3 offset-l5">
+            		
+            	
+            	<a href="#"><i style="font-size: 38px;" class="fa fa-facebook-square"></i></a> &nbsp;&nbsp;&nbsp;
+            	<a href="#"><i style="font-size: 38px;" class="fa fa-twitter-square"></i></a>&nbsp;&nbsp;&nbsp;
+            	<a href="#"><i style="font-size: 38px;" class="fa fa-google-plus-square"></i></a>
+              <a href="#"><i style="font-size: 38px;" class="fa fa-youtube-square"></i></a>
+              <a href="#"><i style="font-size: 38px;" class="fa fa-instagram-square"></i></a>
+            	</div>
+            	
+            </div><!--row-->
+          </div><!--conatiner-->
+    <div class="footer-copyright">
+      <div class="container">
+       <p>Copyright © Your website name</p>
+       <br>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script type="text/javascript" script-name="alex-brush" src="http://use.edgefonts.net/alex-brush.js"></script>
+  <script type="text/javascript" script-name="carter-one" src="http://use.edgefonts.net/carter-one.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+     $('.parallax').parallax();
+      $('.button-collapse').sideNav();
+  });
+  </script>
+  <script>
+  	    $('.head-link').click(function(e) {
+        e.preventDefault();
+        
+        var goto = $(this).attr('href');
+
+        $('html, body').animate({
+            scrollTop: $(goto).offset().top
+        }, 800);
+    });
+
+  </script>
+
+	
+	
+	
+	
+			 <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-60673008-2', 'auto');
+  ga('send', 'pageview');
+</script>
+	
+	
+	
+	
+	
+	
+  </body>
+</html>
